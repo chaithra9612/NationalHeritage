@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* font */
+        @import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz@10..48&family=Dancing+Script&display=swap');
+        /* .homepage{
+            height: 100vh;
+            width: 100%;
+        } */
+        /* .fs{ */
+            /* background-color: rgb(43, 175, 193);
+            width: 100%;
+            height: 150px; */
+            /* top: 0px; */
+            /* display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:60px;
+            text-align: center;
+            background-image: url("https://media.tenor.com/agFP33l54LEAAAAC/sziv%C3%A1rv%C3%A1ny-h%C3%A1tt%C3%A9r-rainbow-background.gif");
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 100%; */
+        /* } */
+        .hpimage{
+            /* margin: 0px; */
+            background-image: url(hp3.webp);
+            /* height:100vh; 
+            width: 100%; */
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            /* background-position-x:768px ;
+            background-position-y:-36px ; */
+
+
+        }
+        .slidetwo{
+            height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(to right bottom,rgb(124, 43, 124),rgb(211, 193, 29),rgb(93, 143, 24));
+            justify-content: space-evenly;
+        }
+        .sh1{
+            text-align: center;
+            /* display: flex;
+            top: 50px; */
+            font-family: 'Borel', cursive;
+            
+        }
+        .directions{
+            height: 80px;
+            width: 500px;
+            background-color: chocolate;
+            border-radius: 50px;
+            margin: 50px;
+            border:5PX black solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .directions:hover{
+            height: 90px;
+            width: 550px;
+            background-color: rgb(30, 210, 33);
+            transition: all 1s ease-in-out;
+            text-decoration: none;  
+        }
+        .north{
+            height: 100vh;
+            width: 100%;
+            background-image: url(northbg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .nbox{
+            height: 80px;
+            width: 500px;
+            background-color: deeppink;
+            margin: 10px;
+            border: 4px black solid;
+            border-radius: 55px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <!-- <div class="homepage"> -->
+        <!-- <div class="fs" > 
+            <h1>Heritage sites in INDIA</h1>
+        </div> -->
+        <div class="hpimage">
+        </div>
+    <!-- </div> -->
+
+    <!-- 2nd slide starts -->
+    <div class="slidetwo">
+        <h1 class="sh1"> Which part of INDIA do you want to explore?</h1>
+        <a href="#n"><div class="directions">NORTH</div></a>
+        <a href=""><div class="directions">SOUTH</div></a>
+        <a href=""><div class="directions">EAST</div></a>
+        <a href=""><div class="directions">WEST</div></a>
+    </div>
+    <!-- 2nd slide end -->
+
+    <!-- north starts -->
+    <div class="north" id="n">
+        <h1></h1>
+        <a href=""><div class="nbox" id="hawa"></div></a>
+        <a href=""><div class="nbox" id="leh"></div></a>
+
+    </div>
+    <!-- north ends -->
+    
+ 
+    
+</body>
+</html>
